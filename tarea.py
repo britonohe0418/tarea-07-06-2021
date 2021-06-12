@@ -64,3 +64,9 @@ class Sintax:
         # DATOS DE TIPO TUPLA
         user = ()
         user = ("Nohe0418", 2105, "anonymous", True)
+        
+        # DATOS DE TIPO LISTA
+        materias = []
+        materias = ["Programacion Web", "PHP", "Ruby"]
+        materias[1] = "Python"
+        materias.append("Go")
