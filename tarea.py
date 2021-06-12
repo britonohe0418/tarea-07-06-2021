@@ -17,3 +17,7 @@ class Sintax:
         edad, _peso = 70, 51.62
         print("Edad de la persona: {}".format(edad))
         print("Peso de la persona: {}".format(_peso))
+
+
+ej2 = Sintax()
+ej2.usoVariable()
