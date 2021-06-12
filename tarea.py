@@ -60,3 +60,7 @@ class Sintax:
         # print("Tipo de Sexo: {}".format(tipoSex))
         # print("Estado Civil Casada: {}".format(civilCasada))
         # print("Peso: {}".format(_peso))
+        
+        # DATOS DE TIPO TUPLA
+        user = ()
+        user = ("Nohe0418", 2105, "anonymous", True)
