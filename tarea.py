@@ -12,12 +12,18 @@
 # sms("Programa #2.")
 
 
+# class Sintax:
+#     def usoVariable(self):
+#         edad, _peso = 70, 51.62
+#         print("Edad de la persona: {}".format(edad))
+#         print("Peso de la persona: {}".format(_peso))
+
+
+# ej2 = Sintax()
+# ej2.usoVariable()
+
+
 class Sintax:
-    def usoVariable(self):
-        edad, _peso = 70, 51.62
-        print("Edad de la persona: {}".format(edad))
-        print("Peso de la persona: {}".format(_peso))
-
-
-ej2 = Sintax()
-ej2.usoVariable()
+    instan = 0
+    def __init__(self, data = "Incializando..."):
+        self.palabra = data
