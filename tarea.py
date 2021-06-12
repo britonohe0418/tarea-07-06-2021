@@ -38,3 +38,8 @@ class Sintax:
         print("Tipo de Sexo: {}".format(tipoSex))
         print("Estado Civil Casada: {}".format(civilCasada))
         print("Peso: {}".format(_peso))
+
+
+ej3 = Sintax()
+print(ej3.palabra)
+ej3.usoVariables()
