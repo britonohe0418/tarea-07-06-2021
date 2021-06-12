@@ -49,3 +49,14 @@ class Sintax:
     instan = 0
     def __init__(self, data = "Iniciando..."):
         self.frase = data
+
+    def usoVariables(self):
+        edad, _peso = 21, 56.75
+        nombre = "Nohelia Brito"
+        tipoSex = "Femenino"
+        civilCasada = True
+        # print("Nombre: {}".format(nombre))
+        # print("Edad: {}".format(edad))
+        # print("Tipo de Sexo: {}".format(tipoSex))
+        # print("Estado Civil Casada: {}".format(civilCasada))
+        # print("Peso: {}".format(_peso))
