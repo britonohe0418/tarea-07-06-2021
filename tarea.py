@@ -6,3 +6,7 @@ else:
 
 def sms(men):
     print(men)
+
+
+sms("Programa #1.")
+sms("Programa #2.")
